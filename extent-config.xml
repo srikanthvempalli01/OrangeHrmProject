@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extent>
+    <!-- Theme of the report -->
+    <configuration>
+        <theme>dark</theme> <!-- Options: standard, dark -->
+        
+        <!-- Report title -->
+        <title>Automation Test Report</title>
+        
+        <!-- Report name -->
+        <reportName>Extent Report</reportName>
+        
+        <!-- Encoding used in the report -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Report protocol (http or https) -->
+        <protocol>https</protocol>
+        
+        <!-- Display test runner logs -->
+        <testRunnerLogs>true</testRunnerLogs>
+
+        <!-- Chart visibility -->
+        <chartVisibility>
+            <enable>true</enable>
+        </chartVisibility>
+
+        <!-- TimeStamp -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Save screenshots automatically (true or false) -->
+        <autoCreateRelativePathMedia>true</autoCreateRelativePathMedia>
+
+        <!-- Path for storing the report -->
+        <reportPath>./ExtentReports/ExtentReport.html</reportPath>
+
+        <!-- Report configuration settings -->
+        <viewOrder>name</viewOrder> <!-- Options: name, test-status -->
+        
+        <!-- Throttle Log messages for better performance -->
+        <logThrottleLevel>info</logThrottleLevel>
+        
+        <!-- Display project logo -->
+        <logo>
+            <image>./logo.png</image>
+            <title>Project Name</title>
+        </logo>
+    </configuration>
+</extent>

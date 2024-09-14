@@ -1,0 +1,6 @@
+com\OrangeHrm\testCases\BaseClass.class
+com\OrangeHrm\testCases\TC_TestCaseLogin_001.class
+com\OrangeHrm\utilities\XLUtils.class
+com\OrangeHrm\utilities\Reporting.class
+com\OrangeHrm\pageObjects\LoginPage.class
+com\OrangeHrm\utilities\ReadConfig.class
