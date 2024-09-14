@@ -26,15 +26,15 @@ public class TC_TestCaseLogin_001 extends BaseClass
 		{
 			Assert.assertTrue(true);
 			logger.info("login successfully");
+			lp.clickDropdown();
+			lp.clickLogout();
+			logger.info("logout successfully");
 		}
 		else
 		{
 			Assert.assertTrue(false);
 			logger.info("login failed");
-		}
-		lp.clickDropdown();
-		lp.clickLogout();
-		logger.info("logout successfully");
+		}		
 	}
 	@DataProvider(name="loginData")
 	public String[][] getData() throws IOException

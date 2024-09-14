@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 100.689 s <<< FAILURE! - in TestSuite
-com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[admin, radmun](2)  Time elapsed: 16.704 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 128.076 s <<< FAILURE! - in TestSuite
+com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[admin, radmun](2)  Time elapsed: 17.409 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:32)
+	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:35)
 
-com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[minadq, jshsbgsg](3)  Time elapsed: 19.567 s  <<< FAILURE!
+com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[minadq, jshsbgsg](3)  Time elapsed: 16.643 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:32)
+	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:35)
 
-com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[gashghj, bhhbagg](5)  Time elapsed: 16.706 s  <<< FAILURE!
+com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest[gashghj, bhhbagg](5)  Time elapsed: 16.556 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:32)
+	at com.OrangeHrm.testCases.TC_TestCaseLogin_001.loginTest(TC_TestCaseLogin_001.java:35)
 
