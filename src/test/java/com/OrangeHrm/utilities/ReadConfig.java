@@ -25,6 +25,11 @@ public class ReadConfig {
 		String url=pro.getProperty("baseURL");
 		return url;
 	}
+	public String getUrl1()
+	{
+		String url1=pro.getProperty("baseURL1");
+		return url1;
+	}
 	public String getChromePath()
 	{
 		String cpath=pro.getProperty("chromepath");

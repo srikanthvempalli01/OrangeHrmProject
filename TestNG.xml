@@ -4,10 +4,16 @@
 	<listeners>
 		<listener class-name="com.OrangeHrm.utilities.Reporting"/>
 	</listeners>
-  <test  name="OpenHrmProject">
+  <test  name="OrangeHrmProject">
   	<parameter name="browser" value="chrome"/>
   	<classes>
   		<class name="com.OrangeHrm.testCases.TC_TestCaseLogin_001"/>
+  	</classes>
+  </test> <!-- Test -->
+  <test  name="OrangeHrmProject1">
+  	<parameter name="browser" value="chrome"/>
+  	<classes>
+  		<class name="com.OrangeHrm.testCases.TC_TestCaseLogin_002"/>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -63,7 +63,6 @@ public class Reporting extends TestListenerAdapter {
         {
             BaseClass baseClass = new BaseClass();
             baseClass.captureScreenshot(Reporting.getDriver(), tr.getName()); // Ensure driver is properly passed
-            
             String screenshotpath = System.getProperty("user.dir") + "/screenshots/" + tr.getName() + ".png";
             File f = new File(screenshotpath);
             if (f.exists())

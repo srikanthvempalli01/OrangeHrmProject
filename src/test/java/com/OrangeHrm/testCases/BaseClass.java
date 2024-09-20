@@ -13,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import com.OrangeHrm.utilities.ReadConfig;
 import freemarker.log.Logger;
@@ -21,11 +22,12 @@ public class BaseClass {
 
     ReadConfig readconfig = new ReadConfig();
     public String baseURL = readconfig.getUrl();
+    public String baseURL1=readconfig.getUrl1();
     public static WebDriver driver;
     public static Logger logger;
     @Parameters({"browser"})
     @BeforeClass
-    public void setup(String br) {
+    public void setup(@Optional("chrome") String br) {
         // Initialize the logger
         logger = Logger.getLogger("OrangeHrmProject");
         PropertyConfigurator.configure("log4j.properties");

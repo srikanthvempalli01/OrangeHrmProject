@@ -1,6 +1,8 @@
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\testCases\TC_TestCaseLogin_001.java
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\utilities\Reporting.java
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\pageObjects\LoginPage.java
+G:\OrangeHrmProject\src\test\java\com\OrangeHrm\testCases\TC_TestCaseLogin_002.java
+G:\OrangeHrmProject\src\test\java\com\OrangeHrm\pageObjects\WebElementsPage.java
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\testCases\BaseClass.java
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\utilities\XLUtils.java
 G:\OrangeHrmProject\src\test\java\com\OrangeHrm\utilities\ReadConfig.java
